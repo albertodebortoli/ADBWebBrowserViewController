@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062E405D15AE07C300FE2B6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062E405C15AE07C300FE2B6E /* UIKit.framework */; };
+		062E405F15AE07C300FE2B6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062E405E15AE07C300FE2B6E /* Foundation.framework */; };
+		062E406115AE07C300FE2B6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062E406015AE07C300FE2B6E /* CoreGraphics.framework */; };
+		F003B2F5163C63720083CB5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F003B2F2163C63720083CB5B /* InfoPlist.strings */; };
+		F003B2F6163C63720083CB5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F003B2F3163C63720083CB5B /* main.m */; };
+		F003B2FD163C63800083CB5B /* DAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F003B2F8163C63800083CB5B /* DAAppDelegate.m */; };
+		F003B2FE163C63800083CB5B /* RootViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F003B2F9163C63800083CB5B /* RootViewController_iPad.xib */; };
+		F003B2FF163C63800083CB5B /* RootViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F003B2FA163C63800083CB5B /* RootViewController_iPhone.xib */; };
+		F003B300163C63800083CB5B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F003B2FC163C63800083CB5B /* RootViewController.m */; };
+		F003B303163C63930083CB5B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F003B302163C63930083CB5B /* MBProgressHUD.m */; };
+		F0FF4B17163C61C7000CAAFB /* ADBWebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FF4B14163C61C7000CAAFB /* ADBWebBrowserViewController.m */; };
+		F0FF4B18163C61C7000CAAFB /* ADBWebBrowserViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0FF4B15163C61C7000CAAFB /* ADBWebBrowserViewController_iPad.xib */; };
+		F0FF4B19163C61C7000CAAFB /* ADBWebBrowserViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0FF4B16163C61C7000CAAFB /* ADBWebBrowserViewController_iPhone.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		062E405815AE07C300FE2B6E /* ADBWebBrowserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADBWebBrowserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		062E405C15AE07C300FE2B6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		062E405E15AE07C300FE2B6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		062E406015AE07C300FE2B6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F003B2F0163C63720083CB5B /* ADBWebBrowserDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ADBWebBrowserDemo-Info.plist"; path = "ADBWebBrowserDemo/ADBWebBrowserDemo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F003B2F1163C63720083CB5B /* ADBWebBrowserDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ADBWebBrowserDemo-Prefix.pch"; path = "ADBWebBrowserDemo/ADBWebBrowserDemo-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		F003B2F2163C63720083CB5B /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = ADBWebBrowserDemo/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		F003B2F3163C63720083CB5B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ADBWebBrowserDemo/main.m; sourceTree = SOURCE_ROOT; };
+		F003B2F7163C63800083CB5B /* DAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAAppDelegate.h; path = ADBWebBrowserDemo/DAAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		F003B2F8163C63800083CB5B /* DAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAAppDelegate.m; path = ADBWebBrowserDemo/DAAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		F003B2F9163C63800083CB5B /* RootViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootViewController_iPad.xib; path = ADBWebBrowserDemo/RootViewController_iPad.xib; sourceTree = SOURCE_ROOT; };
+		F003B2FA163C63800083CB5B /* RootViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootViewController_iPhone.xib; path = ADBWebBrowserDemo/RootViewController_iPhone.xib; sourceTree = SOURCE_ROOT; };
+		F003B2FB163C63800083CB5B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ADBWebBrowserDemo/RootViewController.h; sourceTree = SOURCE_ROOT; };
+		F003B2FC163C63800083CB5B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ADBWebBrowserDemo/RootViewController.m; sourceTree = SOURCE_ROOT; };
+		F003B301163C63930083CB5B /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = ADBWebBrowserDemo/MBProgresshHUD/MBProgressHUD.h; sourceTree = SOURCE_ROOT; };
+		F003B302163C63930083CB5B /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = ADBWebBrowserDemo/MBProgresshHUD/MBProgressHUD.m; sourceTree = SOURCE_ROOT; };
+		F0FF4B13163C61C7000CAAFB /* ADBWebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBWebBrowserViewController.h; sourceTree = "<group>"; };
+		F0FF4B14163C61C7000CAAFB /* ADBWebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBWebBrowserViewController.m; sourceTree = "<group>"; };
+		F0FF4B15163C61C7000CAAFB /* ADBWebBrowserViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADBWebBrowserViewController_iPad.xib; sourceTree = "<group>"; };
+		F0FF4B16163C61C7000CAAFB /* ADBWebBrowserViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADBWebBrowserViewController_iPhone.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		062E405515AE07C300FE2B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062E405D15AE07C300FE2B6E /* UIKit.framework in Frameworks */,
+				062E405F15AE07C300FE2B6E /* Foundation.framework in Frameworks */,
+				062E406115AE07C300FE2B6E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		062E404D15AE07C300FE2B6E = {
+			isa = PBXGroup;
+			children = (
+				F0FF4B12163C61C7000CAAFB /* ADBWebBrowserViewController */,
+				F0FF4B1A163C61ED000CAAFB /* MBProgresshHUD */,
+				F0FF4AF8163C61C1000CAAFB /* ADBWebBrowserDemo */,
+				062E405B15AE07C300FE2B6E /* Frameworks */,
+				062E405915AE07C300FE2B6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		062E405915AE07C300FE2B6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				062E405815AE07C300FE2B6E /* ADBWebBrowserDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		062E405B15AE07C300FE2B6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				062E405C15AE07C300FE2B6E /* UIKit.framework */,
+				062E405E15AE07C300FE2B6E /* Foundation.framework */,
+				062E406015AE07C300FE2B6E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0FF4AF8163C61C1000CAAFB /* ADBWebBrowserDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F0FF4B36163C6268000CAAFB /* Supporting Files */,
+				F003B2F7163C63800083CB5B /* DAAppDelegate.h */,
+				F003B2F8163C63800083CB5B /* DAAppDelegate.m */,
+				F003B2F9163C63800083CB5B /* RootViewController_iPad.xib */,
+				F003B2FA163C63800083CB5B /* RootViewController_iPhone.xib */,
+				F003B2FB163C63800083CB5B /* RootViewController.h */,
+				F003B2FC163C63800083CB5B /* RootViewController.m */,
+			);
+			name = ADBWebBrowserDemo;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F0FF4B12163C61C7000CAAFB /* ADBWebBrowserViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F0FF4B13163C61C7000CAAFB /* ADBWebBrowserViewController.h */,
+				F0FF4B14163C61C7000CAAFB /* ADBWebBrowserViewController.m */,
+				F0FF4B15163C61C7000CAAFB /* ADBWebBrowserViewController_iPad.xib */,
+				F0FF4B16163C61C7000CAAFB /* ADBWebBrowserViewController_iPhone.xib */,
+			);
+			path = ADBWebBrowserViewController;
+			sourceTree = "<group>";
+		};
+		F0FF4B1A163C61ED000CAAFB /* MBProgresshHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F003B301163C63930083CB5B /* MBProgressHUD.h */,
+				F003B302163C63930083CB5B /* MBProgressHUD.m */,
+			);
+			name = MBProgresshHUD;
+			path = Classes/MBProgresshHUD;
+			sourceTree = "<group>";
+		};
+		F0FF4B36163C6268000CAAFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F003B2F0163C63720083CB5B /* ADBWebBrowserDemo-Info.plist */,
+				F003B2F1163C63720083CB5B /* ADBWebBrowserDemo-Prefix.pch */,
+				F003B2F2163C63720083CB5B /* InfoPlist.strings */,
+				F003B2F3163C63720083CB5B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		062E405715AE07C300FE2B6E /* ADBWebBrowserDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 062E407915AE07C300FE2B6E /* Build configuration list for PBXNativeTarget "ADBWebBrowserDemo" */;
+			buildPhases = (
+				062E405415AE07C300FE2B6E /* Sources */,
+				062E405515AE07C300FE2B6E /* Frameworks */,
+				062E405615AE07C300FE2B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADBWebBrowserDemo;
+			productName = "Cocoa-WebBrowser";
+			productReference = 062E405815AE07C300FE2B6E /* ADBWebBrowserDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		062E404F15AE07C300FE2B6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ADB;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 062E405215AE07C300FE2B6E /* Build configuration list for PBXProject "ADBWebBrowserDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 062E404D15AE07C300FE2B6E;
+			productRefGroup = 062E405915AE07C300FE2B6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				062E405715AE07C300FE2B6E /* ADBWebBrowserDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		062E405615AE07C300FE2B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FF4B18163C61C7000CAAFB /* ADBWebBrowserViewController_iPad.xib in Resources */,
+				F0FF4B19163C61C7000CAAFB /* ADBWebBrowserViewController_iPhone.xib in Resources */,
+				F003B2F5163C63720083CB5B /* InfoPlist.strings in Resources */,
+				F003B2FE163C63800083CB5B /* RootViewController_iPad.xib in Resources */,
+				F003B2FF163C63800083CB5B /* RootViewController_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		062E405415AE07C300FE2B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FF4B17163C61C7000CAAFB /* ADBWebBrowserViewController.m in Sources */,
+				F003B2F6163C63720083CB5B /* main.m in Sources */,
+				F003B2FD163C63800083CB5B /* DAAppDelegate.m in Sources */,
+				F003B300163C63800083CB5B /* RootViewController.m in Sources */,
+				F003B303163C63930083CB5B /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		062E407715AE07C300FE2B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		062E407815AE07C300FE2B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		062E407A15AE07C300FE2B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADBWebBrowserDemo/ADBWebBrowserDemo-Prefix.pch";
+				INFOPLIST_FILE = "ADBWebBrowserDemo/ADBWebBrowserDemo-Info.plist";
+				PRODUCT_NAME = ADBWebBrowserDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		062E407B15AE07C300FE2B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADBWebBrowserDemo/ADBWebBrowserDemo-Prefix.pch";
+				INFOPLIST_FILE = "ADBWebBrowserDemo/ADBWebBrowserDemo-Info.plist";
+				PRODUCT_NAME = ADBWebBrowserDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		062E405215AE07C300FE2B6E /* Build configuration list for PBXProject "ADBWebBrowserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				062E407715AE07C300FE2B6E /* Debug */,
+				062E407815AE07C300FE2B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		062E407915AE07C300FE2B6E /* Build configuration list for PBXNativeTarget "ADBWebBrowserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				062E407A15AE07C300FE2B6E /* Debug */,
+				062E407B15AE07C300FE2B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 062E404F15AE07C300FE2B6E /* Project object */;
+}
